@@ -1,3 +1,6 @@
+@charset "uf-8";
+
+
 /* 
   Variáveis para cores:
    --fundo-principal
@@ -51,6 +54,7 @@ header {
   align-content:center;
   position: sticky;
   top : 0;
+  z-index: 9999;
 }
 
 nav#menu ul {
@@ -158,6 +162,7 @@ article h2 {
   width: 100%;
   height: 100%;
   border-radius: 8px;
+  
 }
 
 #skill-container {
@@ -282,14 +287,14 @@ footer a:hover {
           grid-template-columns:  auto 300px 1fr auto;
       }
 
-      selection#ficha {
+      section#ficha {
           grid-column: 2 / 3;
           height: fit-content;
           position: sticky;
           top: 65px;
       }
 
-      selection#detalhes {
+      section#detalhes {
           grid-column: 3 / 4;
       }
 
